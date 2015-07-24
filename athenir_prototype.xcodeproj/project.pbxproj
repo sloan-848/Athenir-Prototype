@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE83C1FA1B61E70C00635ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C1F91B61E70C00635ECB /* AppDelegate.swift */; };
+		BE83C1FC1B61E70C00635ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C1FB1B61E70C00635ECB /* ViewController.swift */; };
+		BE83C1FF1B61E70C00635ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83C1FD1B61E70C00635ECB /* Main.storyboard */; };
+		BE83C2011B61E70C00635ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE83C2001B61E70C00635ECB /* Assets.xcassets */; };
+		BE83C2041B61E70C00635ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83C2021B61E70C00635ECB /* LaunchScreen.storyboard */; };
+		BE83C20F1B61E70D00635ECB /* athenir_prototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C20E1B61E70D00635ECB /* athenir_prototypeTests.swift */; };
+		BE83C21A1B61E70D00635ECB /* athenir_prototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C2191B61E70D00635ECB /* athenir_prototypeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE83C20B1B61E70D00635ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE83C1EE1B61E70C00635ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE83C1F51B61E70C00635ECB;
+			remoteInfo = athenir_prototype;
+		};
+		BE83C2161B61E70D00635ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE83C1EE1B61E70C00635ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE83C1F51B61E70C00635ECB;
+			remoteInfo = athenir_prototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE83C1F61B61E70C00635ECB /* athenir_prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = athenir_prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE83C1F91B61E70C00635ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE83C1FB1B61E70C00635ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE83C1FE1B61E70C00635ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE83C2001B61E70C00635ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE83C2031B61E70C00635ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE83C2051B61E70C00635ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE83C20A1B61E70D00635ECB /* athenir_prototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = athenir_prototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE83C20E1B61E70D00635ECB /* athenir_prototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athenir_prototypeTests.swift; sourceTree = "<group>"; };
+		BE83C2101B61E70D00635ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE83C2151B61E70D00635ECB /* athenir_prototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = athenir_prototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE83C2191B61E70D00635ECB /* athenir_prototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athenir_prototypeUITests.swift; sourceTree = "<group>"; };
+		BE83C21B1B61E70D00635ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE83C1F31B61E70C00635ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83C2071B61E70D00635ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83C2121B61E70D00635ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE83C1ED1B61E70C00635ECB = {
+			isa = PBXGroup;
+			children = (
+				BE83C1F81B61E70C00635ECB /* athenir_prototype */,
+				BE83C20D1B61E70D00635ECB /* athenir_prototypeTests */,
+				BE83C2181B61E70D00635ECB /* athenir_prototypeUITests */,
+				BE83C1F71B61E70C00635ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE83C1F71B61E70C00635ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE83C1F61B61E70C00635ECB /* athenir_prototype.app */,
+				BE83C20A1B61E70D00635ECB /* athenir_prototypeTests.xctest */,
+				BE83C2151B61E70D00635ECB /* athenir_prototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE83C1F81B61E70C00635ECB /* athenir_prototype */ = {
+			isa = PBXGroup;
+			children = (
+				BE83C1F91B61E70C00635ECB /* AppDelegate.swift */,
+				BE83C1FB1B61E70C00635ECB /* ViewController.swift */,
+				BE83C1FD1B61E70C00635ECB /* Main.storyboard */,
+				BE83C2001B61E70C00635ECB /* Assets.xcassets */,
+				BE83C2021B61E70C00635ECB /* LaunchScreen.storyboard */,
+				BE83C2051B61E70C00635ECB /* Info.plist */,
+			);
+			path = athenir_prototype;
+			sourceTree = "<group>";
+		};
+		BE83C20D1B61E70D00635ECB /* athenir_prototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE83C20E1B61E70D00635ECB /* athenir_prototypeTests.swift */,
+				BE83C2101B61E70D00635ECB /* Info.plist */,
+			);
+			path = athenir_prototypeTests;
+			sourceTree = "<group>";
+		};
+		BE83C2181B61E70D00635ECB /* athenir_prototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE83C2191B61E70D00635ECB /* athenir_prototypeUITests.swift */,
+				BE83C21B1B61E70D00635ECB /* Info.plist */,
+			);
+			path = athenir_prototypeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE83C1F51B61E70C00635ECB /* athenir_prototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE83C21E1B61E70D00635ECB /* Build configuration list for PBXNativeTarget "athenir_prototype" */;
+			buildPhases = (
+				BE83C1F21B61E70C00635ECB /* Sources */,
+				BE83C1F31B61E70C00635ECB /* Frameworks */,
+				BE83C1F41B61E70C00635ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = athenir_prototype;
+			productName = athenir_prototype;
+			productReference = BE83C1F61B61E70C00635ECB /* athenir_prototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE83C2091B61E70D00635ECB /* athenir_prototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE83C2211B61E70D00635ECB /* Build configuration list for PBXNativeTarget "athenir_prototypeTests" */;
+			buildPhases = (
+				BE83C2061B61E70D00635ECB /* Sources */,
+				BE83C2071B61E70D00635ECB /* Frameworks */,
+				BE83C2081B61E70D00635ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE83C20C1B61E70D00635ECB /* PBXTargetDependency */,
+			);
+			name = athenir_prototypeTests;
+			productName = athenir_prototypeTests;
+			productReference = BE83C20A1B61E70D00635ECB /* athenir_prototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE83C2141B61E70D00635ECB /* athenir_prototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE83C2241B61E70D00635ECB /* Build configuration list for PBXNativeTarget "athenir_prototypeUITests" */;
+			buildPhases = (
+				BE83C2111B61E70D00635ECB /* Sources */,
+				BE83C2121B61E70D00635ECB /* Frameworks */,
+				BE83C2131B61E70D00635ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE83C2171B61E70D00635ECB /* PBXTargetDependency */,
+			);
+			name = athenir_prototypeUITests;
+			productName = athenir_prototypeUITests;
+			productReference = BE83C2151B61E70D00635ECB /* athenir_prototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE83C1EE1B61E70C00635ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "848 Applications and Designs";
+				TargetAttributes = {
+					BE83C1F51B61E70C00635ECB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BE83C2091B61E70D00635ECB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BE83C1F51B61E70C00635ECB;
+					};
+					BE83C2141B61E70D00635ECB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BE83C1F51B61E70C00635ECB;
+					};
+				};
+			};
+			buildConfigurationList = BE83C1F11B61E70C00635ECB /* Build configuration list for PBXProject "athenir_prototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE83C1ED1B61E70C00635ECB;
+			productRefGroup = BE83C1F71B61E70C00635ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE83C1F51B61E70C00635ECB /* athenir_prototype */,
+				BE83C2091B61E70D00635ECB /* athenir_prototypeTests */,
+				BE83C2141B61E70D00635ECB /* athenir_prototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE83C1F41B61E70C00635ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83C2041B61E70C00635ECB /* LaunchScreen.storyboard in Resources */,
+				BE83C2011B61E70C00635ECB /* Assets.xcassets in Resources */,
+				BE83C1FF1B61E70C00635ECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83C2081B61E70D00635ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83C2131B61E70D00635ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE83C1F21B61E70C00635ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83C1FC1B61E70C00635ECB /* ViewController.swift in Sources */,
+				BE83C1FA1B61E70C00635ECB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83C2061B61E70D00635ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83C20F1B61E70D00635ECB /* athenir_prototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83C2111B61E70D00635ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83C21A1B61E70D00635ECB /* athenir_prototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE83C20C1B61E70D00635ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE83C1F51B61E70C00635ECB /* athenir_prototype */;
+			targetProxy = BE83C20B1B61E70D00635ECB /* PBXContainerItemProxy */;
+		};
+		BE83C2171B61E70D00635ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE83C1F51B61E70C00635ECB /* athenir_prototype */;
+			targetProxy = BE83C2161B61E70D00635ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE83C1FD1B61E70C00635ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE83C1FE1B61E70C00635ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE83C2021B61E70C00635ECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE83C2031B61E70C00635ECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE83C21C1B61E70D00635ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE83C21D1B61E70D00635ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE83C21F1B61E70D00635ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = athenir_prototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE83C2201B61E70D00635ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = athenir_prototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE83C2221B61E70D00635ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = athenir_prototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/athenir_prototype.app/athenir_prototype";
+			};
+			name = Debug;
+		};
+		BE83C2231B61E70D00635ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = athenir_prototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/athenir_prototype.app/athenir_prototype";
+			};
+			name = Release;
+		};
+		BE83C2251B61E70D00635ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = athenir_prototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = athenir_prototype;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BE83C2261B61E70D00635ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = athenir_prototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = athenir_prototype;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE83C1F11B61E70C00635ECB /* Build configuration list for PBXProject "athenir_prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83C21C1B61E70D00635ECB /* Debug */,
+				BE83C21D1B61E70D00635ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE83C21E1B61E70D00635ECB /* Build configuration list for PBXNativeTarget "athenir_prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83C21F1B61E70D00635ECB /* Debug */,
+				BE83C2201B61E70D00635ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE83C2211B61E70D00635ECB /* Build configuration list for PBXNativeTarget "athenir_prototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83C2221B61E70D00635ECB /* Debug */,
+				BE83C2231B61E70D00635ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE83C2241B61E70D00635ECB /* Build configuration list for PBXNativeTarget "athenir_prototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83C2251B61E70D00635ECB /* Debug */,
+				BE83C2261B61E70D00635ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE83C1EE1B61E70C00635ECB /* Project object */;
+}
