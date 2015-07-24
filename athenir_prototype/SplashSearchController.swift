@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SplashSearchController: UIViewController {
+    
+    @IBOutlet weak var searchTextBox : UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,11 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func submitSearch() {
+        let query = searchTextBox.text
+        print("Searching \(query)")
     }
 
 
