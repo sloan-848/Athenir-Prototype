@@ -22,11 +22,14 @@ class SplashSearchController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func submitSearch() {
-        let query = searchTextBox.text
-        print("Searching \(query)")
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if (segue.identifier == "searchSegue") {
+            let svc = segue.destinationViewController as! UINavigationController;
+            let resultController = svc.childViewControllers[0] as! ResultsViewController
+            
+            resultController.queryString = searchTextBox.text
+        }
     }
-
 
 }
 

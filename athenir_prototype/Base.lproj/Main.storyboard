@@ -49,8 +49,7 @@
                                 <animations/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <action selector="submitSearch" destination="BYZ-38-t0r" eventType="touchUpInside" id="HB1-do-3lZ"/>
-                                    <segue destination="d9h-Zv-dkD" kind="show" id="bJg-nm-eoq"/>
+                                    <segue destination="d9h-Zv-dkD" kind="show" identifier="searchSegue" id="bJg-nm-eoq"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Germany, sharks, your name...." minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="aUv-CL-riV">
@@ -135,7 +134,7 @@
                                             <color key="textColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="1001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79X-KM-4g8">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79X-KM-4g8">
                                             <rect key="frame" x="16" y="33" width="551" height="46"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>

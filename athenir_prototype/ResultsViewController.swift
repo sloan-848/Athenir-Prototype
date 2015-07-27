@@ -7,10 +7,47 @@
 //
 
 import UIKit
+import Alamofire
 
 class ResultsViewController: UITableViewController {
     
-    var results: [String] = ["The Cow Jumped", "Hello World", "My Fair Lady"]
+    var results: [String] = ["The Cow Jumped", "Hello World", "My Fair Lady", "Many", "Other", "Items"]
+    
+    var queryString: String!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // send network request
+        let requestURL = "http://athenir.com/api/search?query=\(queryString)&type=web"
+        let encodedURL = requestURL.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!
+        /*let finalURL = NSURL(string: encodedURL)!
+        
+        let task = NSURLSession.sharedSession().dataTaskWithURL(finalURL) {(data, response, error) in
+            if (error != nil){
+                //explode in flames
+            } else {
+                let responseJSON = JSON(data: data!)
+                if (!responseJSON["success"]){
+                    //only burn a bit
+                } else {
+                    //insert data into model
+                    //update 
+                    
+                }
+          }
+        }
+        
+        task.resume()*/
+        Alamofire.request(.GET, encodedURL)
+            .responseJSON { request, response, data, error in
+                //Create swiftyJSON object
+                let decoded = JSON(data!)
+                
+                print(decoded)
+        }
+        
+        print("Recieved message \(queryString)")
+    }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return results.count
@@ -22,7 +59,7 @@ class ResultsViewController: UITableViewController {
         let title = cell.viewWithTag(1000) as! UILabel
         let description = cell.viewWithTag(1001) as! UILabel
         
-        title.text = "New Title"
+        title.text = queryString
         description.text = results[indexPath.item]
         
         return cell
