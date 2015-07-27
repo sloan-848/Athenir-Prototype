@@ -7,16 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE7CEDAB1B65911E0060E024 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEDAA1B65911E0060E024 /* SwiftyJSON.swift */; };
+		BE7CEDD21B6599DA0060E024 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7CEDCB1B65999E0060E024 /* Alamofire.framework */; };
+		BE7CEDD31B6599DA0060E024 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE7CEDCB1B65999E0060E024 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE83C1FA1B61E70C00635ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C1F91B61E70C00635ECB /* AppDelegate.swift */; };
-		BE83C1FC1B61E70C00635ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C1FB1B61E70C00635ECB /* ViewController.swift */; };
+		BE83C1FC1B61E70C00635ECB /* SplashSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C1FB1B61E70C00635ECB /* SplashSearchController.swift */; };
 		BE83C1FF1B61E70C00635ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83C1FD1B61E70C00635ECB /* Main.storyboard */; };
 		BE83C2011B61E70C00635ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE83C2001B61E70C00635ECB /* Assets.xcassets */; };
 		BE83C2041B61E70C00635ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83C2021B61E70C00635ECB /* LaunchScreen.storyboard */; };
 		BE83C20F1B61E70D00635ECB /* athenir_prototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C20E1B61E70D00635ECB /* athenir_prototypeTests.swift */; };
 		BE83C21A1B61E70D00635ECB /* athenir_prototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C2191B61E70D00635ECB /* athenir_prototypeUITests.swift */; };
+		BE83C2281B61F5DF00635ECB /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE83C2271B61F5DF00635ECB /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BE7CEDCA1B65999E0060E024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7CEDC31B65999E0060E024 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		BE7CEDCC1B65999E0060E024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7CEDC31B65999E0060E024 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		BE7CEDCE1B65999E0060E024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7CEDC31B65999E0060E024 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		BE7CEDD01B65999E0060E024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7CEDC31B65999E0060E024 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		BE7CEDD41B6599DA0060E024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7CEDC31B65999E0060E024 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 		BE83C20B1B61E70D00635ECB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BE83C1EE1B61E70C00635ECB /* Project object */;
@@ -33,10 +72,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BE9539AE1B61FE1200CA6BD5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE7CEDD31B6599DA0060E024 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BE7CEDAA1B65911E0060E024 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BE7CEDC31B65999E0060E024 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		BE83C1F61B61E70C00635ECB /* athenir_prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = athenir_prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE83C1F91B61E70C00635ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE83C1FB1B61E70C00635ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE83C1FB1B61E70C00635ECB /* SplashSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashSearchController.swift; sourceTree = "<group>"; };
 		BE83C1FE1B61E70C00635ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE83C2001B61E70C00635ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE83C2031B61E70C00635ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +102,7 @@
 		BE83C2151B61E70D00635ECB /* athenir_prototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = athenir_prototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE83C2191B61E70D00635ECB /* athenir_prototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athenir_prototypeUITests.swift; sourceTree = "<group>"; };
 		BE83C21B1B61E70D00635ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE83C2271B61F5DF00635ECB /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7CEDD21B6599DA0060E024 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +131,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE7CEDAC1B6591280060E024 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BE7CEDAA1B65911E0060E024 /* SwiftyJSON.swift */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		BE7CEDC41B65999E0060E024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7CEDCB1B65999E0060E024 /* Alamofire.framework */,
+				BE7CEDCD1B65999E0060E024 /* Alamofire.framework */,
+				BE7CEDCF1B65999E0060E024 /* Alamofire iOS Tests.xctest */,
+				BE7CEDD11B65999E0060E024 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BE83C1ED1B61E70C00635ECB = {
 			isa = PBXGroup;
 			children = (
+				BE7CEDC31B65999E0060E024 /* Alamofire.xcodeproj */,
 				BE83C1F81B61E70C00635ECB /* athenir_prototype */,
 				BE83C20D1B61E70D00635ECB /* athenir_prototypeTests */,
 				BE83C2181B61E70D00635ECB /* athenir_prototypeUITests */,
@@ -97,8 +174,10 @@
 		BE83C1F81B61E70C00635ECB /* athenir_prototype */ = {
 			isa = PBXGroup;
 			children = (
+				BE7CEDAC1B6591280060E024 /* Libraries */,
 				BE83C1F91B61E70C00635ECB /* AppDelegate.swift */,
-				BE83C1FB1B61E70C00635ECB /* ViewController.swift */,
+				BE83C1FB1B61E70C00635ECB /* SplashSearchController.swift */,
+				BE83C2271B61F5DF00635ECB /* ResultsViewController.swift */,
 				BE83C1FD1B61E70C00635ECB /* Main.storyboard */,
 				BE83C2001B61E70C00635ECB /* Assets.xcassets */,
 				BE83C2021B61E70C00635ECB /* LaunchScreen.storyboard */,
@@ -135,10 +214,12 @@
 				BE83C1F21B61E70C00635ECB /* Sources */,
 				BE83C1F31B61E70C00635ECB /* Frameworks */,
 				BE83C1F41B61E70C00635ECB /* Resources */,
+				BE9539AE1B61FE1200CA6BD5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BE7CEDD51B6599DA0060E024 /* PBXTargetDependency */,
 			);
 			name = athenir_prototype;
 			productName = athenir_prototype;
@@ -214,6 +295,12 @@
 			mainGroup = BE83C1ED1B61E70C00635ECB;
 			productRefGroup = BE83C1F71B61E70C00635ECB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BE7CEDC41B65999E0060E024 /* Products */;
+					ProjectRef = BE7CEDC31B65999E0060E024 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BE83C1F51B61E70C00635ECB /* athenir_prototype */,
@@ -222,6 +309,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BE7CEDCB1B65999E0060E024 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = BE7CEDCA1B65999E0060E024 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE7CEDCD1B65999E0060E024 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = BE7CEDCC1B65999E0060E024 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE7CEDCF1B65999E0060E024 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = BE7CEDCE1B65999E0060E024 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE7CEDD11B65999E0060E024 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = BE7CEDD01B65999E0060E024 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BE83C1F41B61E70C00635ECB /* Resources */ = {
@@ -255,8 +373,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE83C1FC1B61E70C00635ECB /* ViewController.swift in Sources */,
+				BE83C1FC1B61E70C00635ECB /* SplashSearchController.swift in Sources */,
 				BE83C1FA1B61E70C00635ECB /* AppDelegate.swift in Sources */,
+				BE83C2281B61F5DF00635ECB /* ResultsViewController.swift in Sources */,
+				BE7CEDAB1B65911E0060E024 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +399,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BE7CEDD51B6599DA0060E024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = BE7CEDD41B6599DA0060E024 /* PBXContainerItemProxy */;
+		};
 		BE83C20C1B61E70D00635ECB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BE83C1F51B61E70C00635ECB /* athenir_prototype */;
@@ -347,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +511,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,7 +523,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = athenir_prototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototype";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +537,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = athenir_prototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototype";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,6 +552,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = athenir_prototypeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototypeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +565,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = athenir_prototypeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototypeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = athenir_prototypeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototypeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = athenir_prototypeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.848.athenir-prototypeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +618,7 @@
 				BE83C2201B61E70D00635ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE83C2211B61E70D00635ECB /* Build configuration list for PBXNativeTarget "athenir_prototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +627,7 @@
 				BE83C2231B61E70D00635ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE83C2241B61E70D00635ECB /* Build configuration list for PBXNativeTarget "athenir_prototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +636,7 @@
 				BE83C2261B61E70D00635ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
